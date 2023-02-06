@@ -76,7 +76,7 @@ h1.hero-txt {
     padding-bottom: 0;
 }
 
-.hero .company-logo {
+.company-logo {
     color: var(--main-yellow-color);
     text-transform: lowercase;
     text-align: left;
