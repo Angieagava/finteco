@@ -276,9 +276,17 @@ h3.footer-btn:hover {
         text-align:center; 
     }
 
+    .hero ul {
+        margin: 0 auto;
+    }
+
     .company-logo {
         text-align: center;
         margin-top: 15%;
+    }
+    
+    .knowhow p {
+        width: auto;
     }
 
     .bankers {display: none;}
