@@ -20,8 +20,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
     <!--fontawesome-->
-    <script src="https://kit.fontawesome.com/511155ee61.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/511155ee61.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
   </head>
 
@@ -48,7 +47,7 @@
       </div>
     </div>
       <div class="container-fluid knowhow box">
-        <div class="container text-center animatable fadeInDown">
+        <div class="container text-center">
           <h2>How it works?</h2>
           <div class="row ">
             <div class="col-md-3 col">
@@ -71,7 +70,7 @@
         </div>
       </div>
       <div class="container-fluid features box">
-        <div class="container animatable bounceInRight">
+        <div class="container">
           <h2>Best Features:</h2>
           <div class="row ">
             <div class="col-md-6 col-sm-12 my-4">
@@ -123,7 +122,7 @@
         </div>
       </div>
       <div class="container-fluid investing box">
-        <div class="container animatable bounceInLeft">
+        <div class="container">
           <h2>Learn about investing</h2>
           <div class="row ">
             <div class="col-md-4 col-sm-10 mx-auto">
@@ -136,7 +135,7 @@
         </div>
       </div>
       <div class="container-fluid raports box">
-        <div class="container animatable bounceInRight">
+        <div class="container">
           <h2>Check all the raports</h2>
           <div class="row ">
             <div class="col-md-4 col-sm-10 mx-auto">
@@ -149,7 +148,7 @@
         </div>
       </div>
       <div class="container-fluid family box">
-        <div class="container animatable fadeIn">
+        <div class="container ">
           <h2>Invest with friends & family</h2>
           <div class="row ">
             <div class="col-md-4 col-sm-10 mx-auto">
@@ -162,7 +161,7 @@
         </div>
       </div>
       <div class="container-fluid others box">
-        <div class="container animatable fadeInUp">
+        <div class="container">
           <h2>Others about Us:</h2>
           <div class="row ">
             <div class="col-md-3 col-sm-12 mx-auto">
@@ -181,7 +180,7 @@
         </div>
       </div>
       <div class="container-fluid faq box">
-        <div class="container animatable bounceInRight">
+        <div class="container">
           <h2>FAQ</h2>
           <div class="row ">
             <!--accordion-->
@@ -222,7 +221,7 @@
         </div>
       </div>
       <div class="container-fluid footer box">
-        <div class="container animatable fadeInUp">
+        <div class="container">
           <h2 class="company-name">finteco</h2>
           <div class="row text-center">
             <div class="col-md-4 col-sm-10 mx-auto">
@@ -241,49 +240,6 @@
 
     </div>
 
-    <script type="text/javascript">
-      jQuery(function($) {
-  
-  // Function which adds the 'animated' class to any '.animatable' in view
-  var doAnimations = function() {
-    
-    // Calc current offset and get all animatables
-    var offset = $(window).scrollTop() + $(window).height(),
-        $animatables = $('.animatable');
-    
-    // Check all animatables and animate them if necessary
-    $animatables.each(function(i) {
-       var $animatable = $(this);
-      
-      // Items that are "above the fold"
-      if (($animatable.offset().top + $animatable.height() + 50) < offset) {
-        
-        // Item previously wasn't marked as "above the fold": mark it now
-        if (!$animatable.hasClass('animate-in')) {
-          $animatable.removeClass('animate-out').css('top', $animatable.css('top')).addClass('animate-in');
-        }
-
-      }
-      
-      // Items that are "below the fold"
-      else if (($animatable.offset().top + $animatable.height() + 50) > offset) {
-        
-        // Item previously wasn't marked as "below the fold": mark it now
-        if ($animatable.hasClass('animate-in')) {
-          $animatable.removeClass('animate-in').css('top', $animatable.css('top')).addClass('animate-out');
-        }
-
-      }
-
-    });
-
-  };
-  
-  // Hook doAnimations on scroll, and trigger a scroll
-  $(window).on('scroll', doAnimations);
-  $(window).trigger('scroll');
-
-});
-    </script>
+   
   </body>
   </html>
