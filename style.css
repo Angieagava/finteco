@@ -18,14 +18,12 @@ html {
 
 
   /*A-CLEARFIX*/
-.row:before,
-.row:after {
-    content: "";
+@mixin clearfix() {
+  &::after {
     display: block;
-}
-
-.row:after {
+    content: "";
     clear: both;
+  }
 }
 
    /*BODY*/
@@ -168,9 +166,8 @@ h1.hero-txt {
 
 .knowhow {
     background-color: var(--main-yellow-color);
-    height: 100vh;
     z-index: 1;
-    overflow: hidden;
+    padding-bottom: 5%;
 }
 
 .knowhow p {
