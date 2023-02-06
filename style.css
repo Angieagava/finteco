@@ -253,3 +253,15 @@ h3.footer-btn {
 h3.footer-btn:hover {
     font-size: 4rem;
 }
+
+@media only screen and (max-width: 767px) {
+    h1.hero-txt {
+        font-size: 4rem;
+        width: 100vw;
+        line-height: 4rem;
+        text-align: center;
+    }
+    .bankers {
+        display: none;
+    }
+}
