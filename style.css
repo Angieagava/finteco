@@ -266,9 +266,9 @@ h3.footer-btn:hover {
 
 @media only screen and (max-width: 767px) {
     h1.hero-txt {
-        font-size: 3rem;
+        font-size: 2.5rem;
         width: 100vw;
-        line-height: 4rem;
+        line-height: 3rem;
         text-align: center;
     }
 
@@ -277,16 +277,22 @@ h3.footer-btn:hover {
         text-align:center; 
     }
 
+    .company-logo {
+        text-align: center;
+    }
+
     .bankers {display: none;}
 
     .hero img { 
         margin: 13% auto;
         width: 100vw; 
     } 
+
     h2 {
         font-size: 4rem;
     }
-   .btn-app {
+
+    .btn-app {
       width:100%;
    }
 }
