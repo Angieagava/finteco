@@ -256,12 +256,24 @@ h3.footer-btn:hover {
 
 @media only screen and (max-width: 767px) {
     h1.hero-txt {
-        font-size: 4rem;
+        font-size: 3rem;
         width: 100vw;
         line-height: 4rem;
         text-align: center;
     }
-    .bankers {
-        display: none;
+
+    .hero p { 
+        width: auto;
+        text-align:center; 
+    }
+
+    .bankers {display: none;}
+
+    .hero img { 
+        margin: 13% auto;
+        width: 100vw; 
+    } 
+    h2 {
+        font-size: 5rem;
     }
 }
