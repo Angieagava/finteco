@@ -138,6 +138,7 @@ h1.hero-txt {
     margin-right: 1rem;
     margin-top: 5%;
     margin-bottom: 5%;
+    z-index: 1;
 }
 
 .btn-google {
