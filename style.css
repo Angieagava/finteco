@@ -18,12 +18,14 @@ html {
 
 
   /*A-CLEARFIX*/
-@mixin clearfix() {
-  &::after {
-    display: block;
+.row:before,
+.row:after {
     content: "";
+    display: block;
+}
+
+.row:after {
     clear: both;
-  }
 }
 
    /*BODY*/
