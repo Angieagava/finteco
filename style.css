@@ -1,0 +1,255 @@
+   /*A-COLORS*/
+
+:root {
+    --main-grey-color: #D9D9D9;
+    /*darkgrey*/
+    --main-blue-color: #A1D8FF;
+    /*lightgrey*/
+    --main-yellow-color: #FDB935;
+    /*violet*/
+    --main-black-color:  #000000;
+    /*black*/
+    --main-white-color:  #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+  /*A-CLEARFIX*/
+.row:before,
+.row:after {
+    content: "";
+    display: block;
+}
+
+.row:after {
+    clear: both;
+}
+
+   /*BODY*/
+
+body {
+    background-position: initial;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    color:  var(--main-black-color);
+    height :100vh;
+}
+
+   /*HEADERS*/
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    font-family: 'Lexend', sans-serif;
+}
+
+h2 {
+    font-size: 9rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.37), 3px 14px 15px rgba(0, 0, 0, 0.3);
+    color: var(--main-yellow-color);
+    padding-top:10%;
+    padding-bottom: 10%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h1.hero-txt {
+    font-size: 6rem;
+    width: 50vw;
+    color:  var(--main-white-color);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.38);;
+    text-transform: capitalize;
+    line-height: 8rem;
+    margin: 5rem 0;
+}
+
+.hero {
+    background-color: var(--main-blue-color);
+    position: relative;
+    margin-bottom:0;
+    padding-bottom: 0;
+}
+
+.hero p {
+    width: 80vh;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.logo {
+    padding-top: 5%;
+}
+
+      /*BOXSHADOW*/
+
+.box {
+  box-shadow: 0 0 20px rgb(0 0 0 / 50%);
+}
+
+      /*BUTTONS*/
+
+.btn-log {
+    text-transform: uppercase;
+    color: var(--main-black-color);
+    border: 0;
+    font-weight: 600;
+    border-radius: 0;
+    width: 8rem;
+    height: 3rem;
+    line-height: 2rem;
+}
+
+.btn-sign {
+    background-color: var(--main-yellow-color);
+    text-transform: uppercase;
+    color: var(--main-black-color);
+    border-radius: 0;
+    width: 8rem;
+    height: 3rem;
+    line-height: 2rem;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+    font-weight: 600;
+}
+
+.btn-app {
+    text-transform: uppercase;
+    border-radius: 0;
+    width: 23rem;
+    height: 4rem;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+    font-weight: 600;
+    line-height: 3rem;
+    margin-right: 1rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.btn-google {
+    background-color: var(--main-white-color);
+    color: var(--main-black-color);
+}
+
+.btn-store {
+    background-color: var(--main-black-color);
+    color: var(--main-white-color);
+}
+
+.btn-inform {
+    background-color: var(--main-black-color);
+    color: var(--main-yellow-color);
+}
+
+    /*IMAGE*/
+
+.bankers {
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    bottom: -4rem;
+}
+
+   /*SECTIONS BG*/
+
+.knowhow {
+    background-color: var(--main-yellow-color);
+    height: 100vh;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.knowhow p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10% auto;
+    width: 60%;
+}
+
+.knowhow h2 {
+    color: var(--main-yellow-color);
+}
+
+.features {
+    background-color: var(--main-blue-color);
+    padding-bottom: 5%;
+}
+
+.features h2 {
+    color: var(--main-blue-color);
+}
+
+.family {
+    background-color: var(--main-grey-color);
+    padding-bottom: 5%;;
+}
+
+.family h2 {
+    color: var(--main-grey-color);
+}
+
+.raports {
+    background-color: var(--main-yellow-color);
+    padding-bottom: 5%;
+}
+
+.reports h2 {
+    color: var(--main-yellow-color);
+}
+
+.investing {
+    background-color: var(--main-grey-color);
+    padding-bottom: 5%;
+}
+.investing h2 {
+    color: var(--main-grey-color);
+}
+
+.others {
+    background-color: var(--main-yellow-color);
+    padding-bottom: 5%;
+}
+
+.others h2 {
+     color: var(--main-yellow-color);
+}
+
+.faq {
+    background-color: var(--main-grey-color);
+    padding-bottom: 5%;
+}
+
+.faq h2 {
+    color: var(--main-grey-color);
+}
+
+.accordion-button {
+    background-color: var(--main-grey-color);
+    box-shadow: 0 0 20px rgb(0 0 0 / 50%);
+
+}
+.footer {
+    background-color: var(--main-blue-color);
+    padding-bottom: 5%;
+}
+
+.company-name {
+    color: var(--main-yellow-color);
+    text-transform: lowercase;
+}
+
+h3.footer-btn {
+    color: var(--main-blue-color);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3), 3px 14px 15px rgba(0, 0, 0, 0.38);
+    font-size: 3rem;
+}
+
+h3.footer-btn:hover {
+    font-size: 4rem;
+}
