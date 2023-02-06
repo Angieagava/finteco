@@ -284,6 +284,9 @@ h3.footer-btn:hover {
         width: 100vw; 
     } 
     h2 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
+   .btn-app {
+      width:100%;
+   }
 }
