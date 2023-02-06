@@ -296,4 +296,7 @@ h3.footer-btn:hover {
     .btn-app {
       width:100%;
    }
+   .features {
+    text-align: center;
+   }
 }
