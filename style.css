@@ -100,6 +100,10 @@ h1.hero-txt {
   box-shadow: 0 0 20px rgb(0 0 0 / 50%);
 }
 
+svg {
+  
+}
+
       /*BUTTONS*/
 
 .btn-log {
@@ -161,7 +165,7 @@ h1.hero-txt {
     position: absolute;
     right: 0;
     z-index: 0;
-    bottom: -4rem;
+    bottom: 0;
 }
 
    /*SECTIONS BG*/
@@ -178,11 +182,15 @@ h1.hero-txt {
     text-transform: uppercase;
     text-align: center;
     margin: 10% auto;
-    width: 60%;
 }
 
 .knowhow h2 {
     color: var(--main-yellow-color);
+}
+
+.knowhow img {
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    height: 120px;
 }
 
 .features {
@@ -191,8 +199,8 @@ h1.hero-txt {
 }
 
 .features img {
-    fill: #fff;
-    height: 100px;
+    height: 120px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
 
 .features h2 {
