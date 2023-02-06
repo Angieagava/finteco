@@ -76,6 +76,16 @@ h1.hero-txt {
     padding-bottom: 0;
 }
 
+.hero .company-logo {
+    color: var(--main-yellow-color);
+    text-transform: lowercase;
+    text-align: left;
+    margin:0;
+    font-size: 5rem;
+    line-height: 5rem;
+    padding: 0;
+}
+
 .hero p {
     width: 80vh;
     font-weight: 500;
