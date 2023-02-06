@@ -284,10 +284,14 @@ h3.footer-btn:hover {
         text-align: center;
         margin-top: 15%;
     }
-    
+
     .knowhow p {
         width: auto;
-       font-size: 1.2rem;
+        font-size: 1.2rem;
+    }
+
+    .knowhow img {
+        height: 100px;
     }
 
     .bankers {display: none;}
@@ -306,5 +310,9 @@ h3.footer-btn:hover {
    }
    .features {
     text-align: center;
+   }
+
+   .features img {
+    height: 100px;
    }
 }
