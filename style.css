@@ -190,6 +190,11 @@ h1.hero-txt {
     padding-bottom: 5%;
 }
 
+.features img {
+    fill: #fff;
+    height: 100px;
+}
+
 .features h2 {
     color: var(--main-blue-color);
 }
